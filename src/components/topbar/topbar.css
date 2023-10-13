@@ -1,0 +1,64 @@
+/* ************************topbar************************* */
+.topbarContainer{
+    height: 122px;
+    width:100vw;
+    flex:5.5;
+    background-color:darkcyan;
+
+    position: sticky;
+    top: 0;
+
+}
+/*.topbarLeft{
+    flex: 3;
+   
+}*/
+/*.topbarCenter{
+    flex: 5;
+ 
+
+}*/
+
+
+.topbarIconItem{
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+
+}
+.topbatIconBadge{
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+justify-content: center;
+
+}
+
+.logo{
+    margin-left: 20px;
+    font-size: 24px;
+
+}
+.topbarImage{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit:cover;
+    cursor: pointer;
+}
+.topbarIcons{
+    display: flex;
+}
+
+
+.searchInput:focus{
+outline: none;
+}

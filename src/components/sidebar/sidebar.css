@@ -1,0 +1,19 @@
+.sidebar{
+    flex: 3;
+ 
+ 
+    /* background-color: green; */
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+background-color: rgb(179, 179, 179);
+}
+/* .sidebarWrapper{
+    padding: 20px;
+    background-color: red;
+} */
